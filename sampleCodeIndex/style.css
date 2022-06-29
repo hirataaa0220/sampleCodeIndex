@@ -1,0 +1,68 @@
+@charset 'UTF-8';
+
+.contentsWrapper {
+  height: 100vh;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  z-index: 1;
+  position: sticky;
+  padding: 1.5rem 2rem;
+  background: aliceblue;
+}
+
+h1 {
+  color: midnightblue;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+h2 {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: slategray;
+}
+
+.codeList {
+  padding: 0 2rem;
+}
+
+ul .codeList li {
+  display: inline-block;
+}
+
+li {
+  padding: 1rem ;
+  list-style: none;
+  border-bottom: lightblue solid 1px;
+}
+
+li a {
+  display: flex;
+  justify-content: space-between;
+}
+
+li a::after {
+ font-family: "Font Awesome 5 Free";
+ font-weight: 900;
+ content: "\f105";
+ color: slategray;
+}
+
+li:hover {
+  background: aliceblue;
+  color: midnightblue;
+}
+
+footer {
+  width: 100%;
+  background: aliceblue;
+  text-align: center;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+}
