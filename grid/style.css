@@ -33,7 +33,7 @@ img:hover {
   grid-template-rows: repeat(3,29vw);
 }
 
-@media (max-width: 640px) {
+@media (max-width:640px) {
   .gridWrapper {
     width: 90vw;
     grid-template-columns: repeat(2,49vw);
@@ -41,7 +41,7 @@ img:hover {
   }
 
   img {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
   }
 }
