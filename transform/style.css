@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body {
+  margin: 2rem 2rem 0;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 240px;
+  height: 240px;
+  transition: 0.5s;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 2rem auto;
+}
+
+h2::after {
+  content: '';
+  margin-top: 0.5rem;
+  display: block;
+  border: 1px solid rgb(202, 202, 202);
+}
+
+p {
+  z-index: 1;
+}
+
+.sample {
+  display: inline-block;
+  text-align: center;
+  margin-right: 3rem;
+}
+
+main div.transformWrapper.translateWrapper.rotateWrapper.skewWrapper {
+  display: flex;
+}
+
+.color-turtle,.color-cat { 
+  filter: hue-rotate(40deg);
+}
+
+/* hover時のアニメーション */
+
+.transform01:hover {
+  transform: scaleX(1.3);
+}
+
+.transform02:hover {
+  transform: scaleY(1.3);
+}
+
+.transform03:hover {
+  transform: scale(1.3,0.4);
+}
+
+.translate01:hover {
+  transform: translateX(40px);
+}
+
+.translate02:hover {
+  transform: translateY(40px);
+}
+
+.translate03:hover {
+  transform: translate(40px,-20px);
+}
+
+.rotate01:hover {
+  transform: rotate(45deg);
+}
+
+.rotate02:hover {
+  transform: rotateX(180deg);
+}
+
+.rotate03:hover {
+  transform: rotateY(180deg);
+}
+
+.skew01:hover {
+  transform: skewX(30deg);
+}
+
+.skew02:hover {
+  transform: skewY(30deg);
+}
+
+.skew03:hover {
+  transform: skew(10deg,30deg);
+}
