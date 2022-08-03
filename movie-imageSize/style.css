@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body {
+}
+
+h2.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: black;
+  color: white;
+  font-size: 3rem;
+  font-family: serif;
+}
+
+video {
+  position: relative;
+  filter: contrast(40%);
+  height: 100vh;
+}
+
+.wrapper {
+  width: 70vw;
+  background-color: white;
+  padding: 1.5rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+h2.switching {
+  font-size: 2rem;
+  font-family: serif;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
