@@ -34,8 +34,9 @@ h2::after {
   border: 1px solid rgb(202, 202, 202);
 }
 
-p {
+.explanation {
   z-index: 1;
+  position: relative;
 }
 
 .sample {
