@@ -1,10 +1,18 @@
 @charset "utf-8";
 
+.contentsWrapper {
+  text-align: center;
+}
+
 h1 {
-  margin: 2rem 0;
+  margin: 2rem 0 1rem;
   font-weight: bold;
   font-size: 1.2rem;
-  text-align: center;
+}
+
+p {
+  color: #333;
+  margin-bottom: 2rem;
 }
 
 img {
@@ -15,8 +23,32 @@ img {
   transition: 0.3s;
 }
 
-img:hover {
-  filter: grayscale(100%);
+.filter01:hover {
+  filter: blur(10px);
+}
+
+.filter02:hover {
+  filter: hue-rotate(60deg);
+}
+
+.filter03:hover {
+  filter: opacity(30%);
+}
+
+.filter04:hover {
+  filter: saturate(20%);
+}
+
+.filter05:hover {
+  filter: blur(10px) grayscale(70%);
+}
+
+.filter06:hover {
+  filter: sepia(70%) drop-shadow(3px 3px 3px #333);
+}
+
+.filter07:hover {
+  filter: invert(100%);
 }
 
 .gridWrapper {
