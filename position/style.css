@@ -18,8 +18,18 @@ p {
 }
 
 .textContainer {
-  max-width: 640px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 1rem;
   border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.sticky {
+  width: 90%;
+  margin: 0 auto 1rem;
+  padding: 2rem;
+  background-color: blanchedalmond;
+  position: sticky;
+  bottom: 1rem;
 }
