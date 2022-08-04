@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
   <link rel="stylesheet" href="style.css">
 
   <title>position</title>
@@ -12,9 +13,9 @@
 <body>
   <div class="fixed">
     <h2>position:fixed</h2>
-    fixedはウィンドウ全体を基準に絶対位置を指定します。スクロールしても変わらずそこに配置されます。またabsoluteと同じく高さがなくなります。 ウィンドウ上部に固定されるメニューやウィンドウ右下部に固定されているボタンはfixedが使われることがあります。ウィンドウを基準にして配置しているのでスクロールしてもそこに固定され続けるのがfixedの特徴です。</div>
+    <p>fixedはウィンドウ全体を基準に絶対位置を指定します。スクロールしても変わらずそこに配置されます。またabsoluteと同じく高さがなくなります。 ウィンドウ上部に固定されるメニューやウィンドウ右下部に固定されているボタンはfixedが使われることがあります。ウィンドウを基準にして配置しているのでスクロールしてもそこに固定され続けるのがfixedの特徴です。</p></div>
 
-  <div class="textContainer">
+  <div class="textContainer static">
     <h2>position:static</h2>
     <p>staticはpositionの初期値で、値を入力しなくても適用されます。topやleftを入力しても位置を変更することは出来ず、またz-indexも適用されません。端末によって指定したpositionの位置を戻したい場合に入力するかもしれません。</p>
   </div>
@@ -38,7 +39,7 @@
     <div  class="sample absolute02">子</div>
   </div>
 
-  <div class="textContainer sticky">
+  <div class="sticky">
     <h2>position:sticky</h2>
     <p>stickyに設定すればスクロールしても要素が追従してくれます</p>
   </div>
