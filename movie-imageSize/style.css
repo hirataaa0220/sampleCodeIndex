@@ -40,3 +40,8 @@ p {
   line-height: 1.5;
   margin-bottom: 1rem;
 }
+
+img {
+  width: 4rem;
+  height: 4rem;
+}
