@@ -1,1 +1,25 @@
 @charset 'UTF-8';
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  background-color: aquamarine;
+}
+
+.textContainer {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
