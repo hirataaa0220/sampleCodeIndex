@@ -8,11 +8,10 @@ h1 {
 }
 
 img {
-  width: 400px;
-  height: 400px;
+  width: 29vw;
+  height: 29vh;
   object-fit: cover;
   object-position: center;
-  filter: grayscale(40%) blur(2px);
   transition: 0.3s;
 }
 
@@ -23,7 +22,6 @@ img:hover {
 .gridWrapper {
   display: grid;
   gap: 1vw;
-  width: 80vw;
   grid-template-columns: repeat(3,29vw);
   grid-template-rows: repeat(3,29vw);
 }
@@ -36,7 +34,7 @@ img:hover {
   }
 
   img {
-    width: 200px;
-    height: 200px;
+    width: 49vw;
+    height: 49vh;
   }
 }
