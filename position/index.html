@@ -19,24 +19,27 @@
     <div class="textContainer static">
       <h2>position:static</h2>
       <p>staticはpositionの初期値で、値を入力しなくても適用されます。topやleftを入力しても位置を変更することは出来ず、またz-indexも適用されません。端末によって指定したpositionの位置を戻したい場合に入力するかもしれません。</p>
+      <div class="sample div-static">sttatic</div>
     </div>
-    <div class="sample div-static">sttatic</div>
+  
     <div class="textContainer">
       <h2>position:relative</h2>
       <p>relativeは相対位置の指定となります。
         通常配置される位置を基準として、移動位置を指定することができます。
         <br>この時、relativeを指定した要素は通常配置の高さを残したまま移動するので、下にある通常配置の要素が上に詰まることはありません。 また、staticとは違いz-indexの指定も可能なので、重なり順を変更することも可能です。z-indexを指定しない場合は、通常配置の要素の上に重なるように配置されます。</p>
+        <div class="sample relative01">relative</div>
+        <div class="sample relative02">relative z-index:1</div>
     </div>
-    <div class="sample relative01">relative</div>
-    <div class="sample relative02">relative z-index</div>
+
     
     <div class="textContainer">
       <h2>position:absolute</h2>
       <p>absoluteは親要素にposition: static;以外を指定した場合、その親要素を基準に絶対位置を指定します。<br>absoluteを指定した要素の高さはなくなりますので、下にある通常配置の要素が上に詰まって配置されます。配置場所によっては通常配置の要素と重なってしまうので、基準要素にpaddingを指定するなどの処理が必要になってきます。<br>通常はabsolute要素の直前にある親要素にrelativeを指定して基準要素とすることが多いですが、基準要素が一つもない（親要素が全てstatic）の場合はbodyが基準となります。
       </p>
-    </div>
-    <div class="sample absolute01">親
-      <div  class="sample absolute02">子</div>
+      <div class="sample absolute01">親を起点になるようにrelativeを指定
+        <div  class="sample absolute02">子はdom構造的に親のなかに含まれる必要がある
+        </div>
+      </div>
     </div>
 
     <div class="sticky">
