@@ -11,18 +11,44 @@ p {
 }
 
 .fixed {
-  position: fixed;
   width: 100%;
   padding: 1rem;
-  background-color: aquamarine;
+  background-color: cadetblue;
+  position: fixed;
+  top: 0;
+}
+
+.contentsContainer {
+  margin: 12rem 0 0;
 }
 
 .textContainer {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 1rem;
+  width: 70vw;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  margin: 0 auto 1rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
+}
+
+.sample {
+  width: 30vw;
+  text-align: center;
+  margin: 0 auto 3rem;
+}
+
+.div-static {
+  padding: 2rem 0;
+  background-color: pink;
+}
+
+.relative01 {
+  padding: 2rem 0;
+
+}
+
+.relative02 {
+
 }
 
 .sticky {
