@@ -70,6 +70,18 @@ p {
   left: -30px;
 }
 
+.reference {
+  text-align: center;
+}
+
+.reference a {
+  color: blue;
+}
+
+.reference a:hover {
+  text-decoration: underline;
+}
+
 .sticky {
   width: 90%;
   margin: 0 auto 1rem;
