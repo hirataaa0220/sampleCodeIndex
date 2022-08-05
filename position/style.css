@@ -57,11 +57,17 @@ p {
 }
 
 .absolute01 {
-
+  position: relative;
+  background-color: lightgreen;
+  height: 300px;
 }
 
 .absolute02 {
-  
+  position: absolute;
+  background-color: lavender;
+  width: 30vw;
+  bottom: 0;
+  left: -30px;
 }
 
 .sticky {
