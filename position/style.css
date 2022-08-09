@@ -1,0 +1,92 @@
+@charset 'UTF-8';
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.fixed {
+  width: 100%;
+  padding: 1rem;
+  background-color: cadetblue;
+  position: fixed;
+  top: 0;
+}
+
+.contentsContainer {
+  margin: 12rem 0 0;
+}
+
+.textContainer {
+  width: 70vw;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  margin: 3rem auto 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.sample {
+  width: 30vw;
+  text-align: center;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
+
+.div-static {
+  background-color: pink;
+}
+
+.relative01 {
+  position: relative;
+ background-color: skyblue;
+}
+
+.relative02 {
+  position: relative;
+  top: -24px;
+  left: 48px;
+  z-index: 1;
+  background-color: indianred;
+}
+
+.absolute01 {
+  position: relative;
+  background-color: lightgreen;
+  height: 300px;
+}
+
+.absolute02 {
+  position: absolute;
+  background-color: lavender;
+  width: 30vw;
+  bottom: 0;
+  left: -30px;
+}
+
+.reference {
+  text-align: center;
+}
+
+.reference a {
+  color: blue;
+}
+
+.reference a:hover {
+  text-decoration: underline;
+}
+
+.sticky {
+  width: 90%;
+  margin: 0 auto 1rem;
+  padding: 2rem 1rem 0.5rem;
+  background-color: blanchedalmond;
+  position: sticky;
+  bottom: 1rem;
+}
