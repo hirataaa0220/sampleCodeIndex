@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+  <link rel="stylesheet" href="style.css">
+  <title>drop-shadowとbox-shadow</title>
+</head>
+<body>
+  <h2>drop-shadowとbox-shadowの違い</h2>
+  <p>drop-shadowはfilter:drop-shadowで指定することができ、透過画像の透過部分を無視してshadowをつけてくれます。<br>一方box-shadowは画像の透過部分を無視せず、画像の枠に沿ったshadowをつけます。また、drop-shadowとは異なり、値にinsetを加えることで、内側に影を加えられます。</p>
+  <main>
+    <div>
+      <p class="neumo">drop-shadow</p>
+      <img src="image/illust.png" class="drop-shadow" alt="青とオレンジのアメーバのようなものが重なったイラスト">
+    </div>
+    <div>
+      <p class="neumo">box-shadow</p>
+      <img src="image/illust.png" class="box-shadow" alt="青とオレンジのアメーバのようなものが重なったイラスト">
+    </div>
+  </main>
+</body>
+</html>
