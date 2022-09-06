@@ -4,33 +4,34 @@ html {
   margin: 2rem 2rem;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1rem;
-}
-
 h2 {
   font-size: large;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
-h2:before,:after {
-  flex-grow: 1;
-  content: '';
-  height: 1px;
-  border-top: 1px solid;
-  width: 3em;
-  margin: 0 0.75rem 0  0.75rem;
+
+p {
+  display: inline-block;
+  margin-bottom: 2rem;
+  line-height: 1.75rem;
+}
+
+a {
+  display: inline-block;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .container {
   display: flex;
+  gap:2rem 1rem;
   flex-wrap: wrap;
-  position: relative;
-  gap: 1rem;
 }
 
 .animation1 {
