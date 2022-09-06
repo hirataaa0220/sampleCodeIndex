@@ -1,2 +1,86 @@
 @charset "utf-8";
 
+html {
+  margin: 2rem 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+h2 {
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2:before,:after {
+  flex-grow: 1;
+  content: '';
+  height: 1px;
+  border-top: 1px solid;
+  width: 3em;
+  margin: 0 0.75rem 0  0.75rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  gap: 1rem;
+}
+
+.animation1 {
+  width: 39%;
+  height: 200px;
+  background-color: olivedrab;
+}
+.animation2 {
+  width: 58%;
+  height: 200px;
+  background-color: aliceblue;
+}
+.animation3 {
+  width: 50%;
+  height: 200px;
+  background-color: orchid;
+}
+.animation4 {
+  width: 20%;
+  height: 200px;
+  background-color: seashell;
+}
+.animation5 {
+  width: 25%;
+  height: 200px;
+  background-color: tomato;
+}
+.animation6 {
+  width: 30%;
+  height: 200px;
+  background-color: lemonchiffon;
+}
+.animation7 {
+  width: 35%;
+  height: 200px;
+  background-color:cadetblue;
+}
+.animation8 {
+  width: 30%;
+  height: 200px;
+  background-color:beige;
+}
+.animation9 {
+  width: 47%;
+  height: 200px;
+  background-color: cornflowerblue;
+}
+.animation10 {
+  width: 50%;
+  height: 200px;
+  background-color:darkgoldenrod;
+}
+
