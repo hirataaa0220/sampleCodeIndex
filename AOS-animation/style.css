@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+html {
+  margin: 2rem 2rem;
+}
+
+h2 {
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+p {
+  display: inline-block;
+  margin-bottom: 2rem;
+  line-height: 1.75rem;
+}
+
+a {
+  display: inline-block;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  gap:2rem 1rem;
+  flex-wrap: wrap;
+}
+
+.animation1 {
+  width: 39%;
+  height: 200px;
+  background-color: olivedrab;
+}
+.animation2 {
+  width: 58%;
+  height: 200px;
+  background-color: aliceblue;
+}
+.animation3 {
+  width: 50%;
+  height: 200px;
+  background-color: orchid;
+}
+.animation4 {
+  width: 20%;
+  height: 200px;
+  background-color: seashell;
+}
+.animation5 {
+  width: 25%;
+  height: 200px;
+  background-color: tomato;
+}
+.animation6 {
+  width: 30%;
+  height: 200px;
+  background-color: lemonchiffon;
+}
+.animation7 {
+  width: 35%;
+  height: 200px;
+  background-color:cadetblue;
+}
+.animation8 {
+  width: 30%;
+  height: 200px;
+  background-color:beige;
+}
+.animation9 {
+  width: 47%;
+  height: 200px;
+  background-color: cornflowerblue;
+}
+.animation10 {
+  width: 50%;
+  height: 200px;
+  background-color:darkgoldenrod;
+}
+

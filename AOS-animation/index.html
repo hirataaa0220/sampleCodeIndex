@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>AOSアニメーション</title>
+</head>
+<body>
+  <main>
+    <h2>AOSアニメーションを使ってみた</h2>
+    <p>ウェブで提供されている<a href="https://github.com/michalsnik/aos">AnimationLibrary</a>を使用してJavaScriptのアニメーションを簡単に実装に反映しました。htmlのタグのなかに、data-aos="適応したいアニメーション" を入れるだけでjavascriptはほとんど書きません。バラバラに動いてほしい時は、data-aos-delay="数値"を書き込むことで、出てくるまでの時間を定義することができます。</p>
+    <div class="container" date-aos="fade">
+      <div class="animation1" data-aos="flip-left" data-aos-delay="200"></div>
+      <div class="animation2" data-aos="flip-left" data-aos-delay="400"></div>
+      <div class="animation3" data-aos="flip-left" data-aos-delay="600"></div>
+      <div class="animation4" data-aos="flip-left" data-aos-delay="700"></div>
+      <div class="animation5" data-aos="flip-left" data-aos-delay="800"></div>
+      <div class="animation6" data-aos="flip-left" data-aos-delay="900"></div>
+      <div class="animation7" data-aos="flip-left" data-aos-delay="1000"></div>
+      <div class="animation8" data-aos="flip-left" data-aos-delay="1100"></div>
+      <div class="animation9" data-aos="flip-left" data-aos-delay="1200"></div>
+      <div class="animation10" data-aos="flip-left" data-aos-delay="1200"></div>
+    </div>
+  </main>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
