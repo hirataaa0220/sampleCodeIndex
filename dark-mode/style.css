@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+:root {
+  --label: #333;
+  --bg: ##fff;
+  --cyan: rgb(50,173,230);
+}
+
+@media  (prefers-color-scheme: dark) {
+  :root {
+    --label: #fff;
+    --bg: #333;
+    --cyan: rgb(100,210,255);
+  }
+}
+
+html {
+  margin: 2rem;
+  background-color: var(--bg);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+h2 {
+  font-size: large;
+  font-weight: bold;
+  color: var(--label);
+}
+
+p {
+  color: var(--label);
+  line-height: 1.5rem;
+}
+
+div {
+  background-color: var(--cyan);
+  width: 200px;
+  height: 140px;
+  border-radius: 80% 30% 50% 50%/50%;
+  margin: 0 auto;
+}

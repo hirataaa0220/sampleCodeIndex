@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+  <link rel="stylesheet" href="style.css">
+  <title>drop-shadowとbox-shadowの違い</title>
+</head>
+<body>
+  <main>
+    <h2>darkモードに対応する</h2>
+    <p>@media  (prefers-color-scheme: dark)でダークモードに対応できます。また、rootでライトの時とダークのときに対応する箇所の命名を同じにしておくと楽に対応できます。</p>
+    <div></div>
+    <p>memo<br>
+    横着して、h2とpに同時に色の指定をしたらうまく反映されなかった。h2,p {指定}は効かなかったけど、h2 {指定}は効いた。 </p>
+  </main>
+</body>
+</html>
